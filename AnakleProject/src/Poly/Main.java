@@ -18,6 +18,7 @@ class Female extends Human{
 public class Main {
 	
 	public static void main(String[] args) {
+		System.out.println("after modification of code ......");
 	Human h=new Human();
 	System.out.println(h instanceof Human);
 	System.out.println(h instanceof Male);

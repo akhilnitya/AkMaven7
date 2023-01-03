@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[customer created sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-03T12:40:36 IST" name="Command line suite" finished-at="2023-01-03T12:41:18 IST" duration-ms="42878">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T12:40:36 IST" name="Command line test" finished-at="2023-01-03T12:41:18 IST" duration-ms="42878">
+      <class name="TestScript.ActicustomerCreateTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestScript.ActicustomerCreateTest@6ab778a]" started-at="2023-01-03T12:40:36 IST" name="launchBrowser" finished-at="2023-01-03T12:40:39 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestScript.ActicustomerCreateTest@6ab778a]" started-at="2023-01-03T12:40:39 IST" name="login" finished-at="2023-01-03T12:40:47 IST" duration-ms="7855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:TestScript.ActicustomerCreateTest@6ab778a]" started-at="2023-01-03T12:40:47 IST" name="createCustomer" finished-at="2023-01-03T12:40:55 IST" duration-ms="7984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[customer created sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestScript.ActicustomerCreateTest@6ab778a]" started-at="2023-01-03T12:40:55 IST" name="logOut" finished-at="2023-01-03T12:40:57 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.ActicustomerCreateTest@6ab778a]" started-at="2023-01-03T12:40:57 IST" name="closeBrowser" finished-at="2023-01-03T12:40:57 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScript.ActicustomerCreateTest -->
+      <class name="TestScript.AlertpopTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestScript.AlertpopTest@68e5eea7]" started-at="2023-01-03T12:40:57 IST" name="launchBrowser" finished-at="2023-01-03T12:40:59 IST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestScript.AlertpopTest@68e5eea7]" started-at="2023-01-03T12:40:59 IST" name="login" finished-at="2023-01-03T12:41:06 IST" duration-ms="7394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="alertpopup()[pri:0, instance:TestScript.AlertpopTest@68e5eea7]" started-at="2023-01-03T12:41:06 IST" name="alertpopup" finished-at="2023-01-03T12:41:15 IST" duration-ms="8847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertpopup -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestScript.AlertpopTest@68e5eea7]" started-at="2023-01-03T12:41:15 IST" name="logOut" finished-at="2023-01-03T12:41:18 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.AlertpopTest@68e5eea7]" started-at="2023-01-03T12:41:18 IST" name="closeBrowser" finished-at="2023-01-03T12:41:18 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScript.AlertpopTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
